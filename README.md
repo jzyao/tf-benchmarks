@@ -1,4 +1,4 @@
-# tf-benchmarks-image
+# tf-benchmarks
 
 cpu
 
