@@ -1,3 +1,5 @@
+# 用例： TF benchmarks
+
 ## 安装ks
 ```
 wget https://github.com/ksonnet/ksonnet/releases/download/v0.13.0/ks_0.13.0_linux_amd64.tar.gz
@@ -14,7 +16,7 @@ APP_NAME=my-kubeflow
 ks init ${APP_NAME}
 cd ${APP_NAME}
 
-ks registry add kubeflow github.com/kubeflow/kubeflow/tree/master/kubeflow
+ks registry add kubeflow github.com/kubeflow/kubeflow/tree/master/kubeflow #可以安装本地registry
 
 ks pkg install kubeflow/common
 ks pkg install kubeflow/tf-training
