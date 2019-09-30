@@ -22,7 +22,7 @@ spec:
             - --local_parameter_device=cpu
             - --device=cpu
             - --data_format=NHWC
-            image: jzdoris/tf-benchmarks
+            image: jzdoris/tf-benchmarks-cpu:cpu
             imagePullPolicy: IfNotPresent
             name: tensorflow
             ports:
